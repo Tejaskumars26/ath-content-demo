@@ -25,6 +25,13 @@
         "title": "Comprenda sus necesidades",
         "text": "Infórmese sobre qué registros, permisos y trámites pueden aplicarse a su tipo de negocio.",
         "linkText": "Más información"
+      },
+      {
+        "id": "taxes",
+        "href": "/learn/taxes",
+        "title": "Infórmese sobre los impuestos",
+        "text": "Descubra qué impuestos puede estar sujeto a pago su empresa y cómo presentarlos.",
+        "linkText": "Más información"
       }
     ]
   }
