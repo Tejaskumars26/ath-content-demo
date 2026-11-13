@@ -1,0 +1,35 @@
+{
+  "fundingDefaults": {
+    "pageTitle": "Funding programs",
+    "pageIntro": "Explore grants, loans, and tax credits that can help your business start or grow.",
+    "readMore": "View program",
+    "backToList": "Back to all funding programs",
+    "detailsHeading": "Program details",
+    "fundingTypeLabel": "Funding type",
+    "statusLabel": "Status",
+    "frequencyLabel": "How often",
+    "agencyLabel": "Agency",
+    "contactLabel": "Contact",
+    "dueDateLabel": "Due date",
+    "fundingTypes": {
+      "grant": "Grant",
+      "loan": "Loan",
+      "tax credit": "Tax credit"
+    },
+    "statuses": {
+      "open": "Open",
+      "rolling application": "Rolling application",
+      "first come, first served": "First come, first served"
+    },
+    "frequencies": {
+      "ongoing": "Ongoing",
+      "annual": "Annual",
+      "one-time": "One time"
+    },
+    "agencies": {
+      "economic-development": "Economic Development Authority",
+      "energy-office": "Office of Clean Energy",
+      "labor-department": "Department of Labor and Workforce Development"
+    }
+  }
+}

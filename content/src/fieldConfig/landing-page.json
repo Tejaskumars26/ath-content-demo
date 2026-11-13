@@ -1,0 +1,31 @@
+{
+  "landingPage": {
+    "heroTitle": "Start, operate, and grow your business",
+    "heroSubtitle": "Find out what your business needs to get started, explore funding programs, and learn about the requirements that apply to you.",
+    "heroCallToAction": "Explore funding programs",
+    "cardsTitle": "Popular topics",
+    "cards": [
+      {
+        "id": "business-structure",
+        "href": "/learn/business-structure",
+        "title": "Choose a business structure",
+        "text": "Compare the most common business structures and see how each one affects your taxes and personal liability.",
+        "linkText": "Compare structures"
+      },
+      {
+        "id": "funding",
+        "href": "/funding",
+        "title": "Find funding programs",
+        "text": "Grants, loans, and tax credits are available for businesses at different stages.",
+        "linkText": "See all programs"
+      },
+      {
+        "id": "requirements",
+        "href": "/learn/business-structure",
+        "title": "Understand your requirements",
+        "text": "Learn which registrations, permits, and filings may apply to your type of business.",
+        "linkText": "Learn more"
+      }
+    ]
+  }
+}

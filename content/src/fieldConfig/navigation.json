@@ -1,0 +1,22 @@
+{
+  "navigation": {
+    "siteName": "Business Navigator",
+    "stateName": "State of New Jersey",
+    "demoBanner": "Demo prototype — not an official State of New Jersey website. Content is sample text for a translation demonstration.",
+    "skipToContent": "Skip to main content",
+    "languageLabel": "Language",
+    "menu": {
+      "home": "Home",
+      "learn": "Business structures",
+      "funding": "Funding programs"
+    },
+    "footer": {
+      "aboutTitle": "About this demo",
+      "aboutText": "This site shows how page content kept in JSON and Markdown files is translated, reviewed by people and published back into the code.",
+      "helpTitle": "Need help?",
+      "helpText": "In a real portal this section would list contact options for business owners.",
+      "copyright": "Demo site for evaluation purposes only."
+    },
+    "translationNotice": "This page is shown in English because a translation is not available yet."
+  }
+}

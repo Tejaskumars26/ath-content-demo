@@ -1,0 +1,60 @@
+{
+  "learnPageBusinessStructure": {
+    "title": "Choose a business structure",
+    "overview": "Before you register your business, you need to choose a structure. Your choice affects how you pay taxes, how much personal risk you take on, and which forms you need to file.",
+    "simpleWordsHeading": "In simple words",
+    "advantagesHeading": "Advantages",
+    "disadvantagesHeading": "Disadvantages",
+    "structures": [
+      {
+        "id": "llc",
+        "displayName": "Limited Liability Company (LLC)",
+        "simpleWords": [
+          { "text": "Owners are usually not personally responsible for the business's debts" },
+          { "text": "It combines features of a corporation and a partnership" },
+          { "text": "Profits are reported on the owners' personal tax returns" }
+        ],
+        "advantages": [
+          { "text": "Protects your personal assets from most business debts" },
+          { "text": "Flexible choice of how the business is taxed" }
+        ],
+        "disadvantages": [
+          { "text": "Costs more to set up than a sole proprietorship" },
+          { "text": "Some investors prefer to fund corporations instead" }
+        ]
+      },
+      {
+        "id": "sole-proprietorship",
+        "displayName": "Sole Proprietorship",
+        "simpleWords": [
+          { "text": "The simplest way to run a business on your own" },
+          { "text": "You and the business are legally the same" }
+        ],
+        "advantages": [
+          { "text": "Easy and inexpensive to start" },
+          { "text": "You keep full control of every decision" }
+        ],
+        "disadvantages": [
+          { "text": "You are personally responsible for all business debts" },
+          { "text": "It can be harder to raise money from investors" }
+        ]
+      },
+      {
+        "id": "general-partnership",
+        "displayName": "General Partnership",
+        "simpleWords": [
+          { "text": "Two or more people share ownership of one business" },
+          { "text": "Partners manage the business together and share its debts" }
+        ],
+        "advantages": [
+          { "text": "Simple to start and to run" },
+          { "text": "Partners report profits on their personal tax returns" }
+        ],
+        "disadvantages": [
+          { "text": "Each partner can be responsible for the others' business decisions" },
+          { "text": "Disagreements between partners can be hard to resolve" }
+        ]
+      }
+    ]
+  }
+}
