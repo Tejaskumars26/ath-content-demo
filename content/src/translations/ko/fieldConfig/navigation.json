@@ -1,0 +1,22 @@
+{
+  "navigation": {
+    "siteName": "비즈니스 네비게이터",
+    "stateName": "뉴저지 주",
+    "demoBanner": "데모 프로토타입이며, 뉴저지 주 공식 웹사이트가 아닙니다. 내용은 번역 시연을 위한 샘플 텍스트입니다.",
+    "skipToContent": "본문으로 바로가기",
+    "languageLabel": "언어",
+    "menu": {
+      "home": "집",
+      "learn": "사업 구조",
+      "funding": "자금 지원 프로그램"
+    },
+    "footer": {
+      "aboutTitle": "이 데모에 대하여",
+      "aboutText": "이 사이트는 JSON 및 Markdown 파일에 저장된 페이지 콘텐츠가 번역되고, 담당자가 검토한 후 코드로 다시 게시되는 과정을 보여줍니다.",
+      "helpTitle": "도움이 필요하세요?",
+      "helpText": "실제 포털에서는 이 섹션에 사업주를 위한 연락 옵션이 나열될 것입니다.",
+      "copyright": "데모 사이트는 평가 목적으로만 제공됩니다."
+    },
+    "translationNotice": "아직 번역본이 준비되지 않았기 때문에 이 페이지는 영어로 표시됩니다."
+  }
+}

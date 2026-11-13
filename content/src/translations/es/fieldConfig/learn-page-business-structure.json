@@ -1,0 +1,60 @@
+{
+  "learnPageBusinessStructure": {
+    "title": "Elija una estructura empresarial",
+    "overview": "Antes de registrar su empresa, debe elegir una estructura. Tu elección afecta a cómo pagas los impuestos, al riesgo personal que asumes y a los formularios que debes presentar.",
+    "simpleWordsHeading": "En palabras sencillas",
+    "advantagesHeading": "Ventajas",
+    "disadvantagesHeading": "Desventajas",
+    "structures": [
+      {
+        "id": "llc",
+        "displayName": "Sociedad de Responsabilidad Limitada (SRL)",
+        "simpleWords": [
+          { "text": "Por lo general, los propietarios no son personalmente responsables de las deudas de la empresa." },
+          { "text": "Combina características de una corporación y una sociedad." },
+          { "text": "Las ganancias se declaran en las declaraciones de impuestos personales de los propietarios." }
+        ],
+        "advantages": [
+          { "text": "Protege tus bienes personales de la mayoría de las deudas comerciales." },
+          { "text": "Elección flexible de cómo se gravan los impuestos de la empresa." }
+        ],
+        "disadvantages": [
+          { "text": "Su puesta en marcha cuesta más que la de una empresa unipersonal." },
+          { "text": "Algunos inversores prefieren financiar corporaciones en su lugar." }
+        ]
+      },
+      {
+        "id": "sole-proprietorship",
+        "displayName": "Empresa unipersonal",
+        "simpleWords": [
+          { "text": "La forma más sencilla de dirigir un negocio por tu cuenta" },
+          { "text": "Usted y la empresa son legalmente lo mismo." }
+        ],
+        "advantages": [
+          { "text": "Fácil y económico para empezar." },
+          { "text": "Usted mantiene el control total de cada decisión." }
+        ],
+        "disadvantages": [
+          { "text": "Usted es personalmente responsable de todas las deudas comerciales." },
+          { "text": "Puede resultar más difícil conseguir financiación de los inversores." }
+        ]
+      },
+      {
+        "id": "general-partnership",
+        "displayName": "Sociedad colectiva",
+        "simpleWords": [
+          { "text": "Dos o más personas comparten la propiedad de un negocio." },
+          { "text": "Los socios gestionan el negocio conjuntamente y comparten sus deudas." }
+        ],
+        "advantages": [
+          { "text": "Fácil de poner en marcha y de usar." },
+          { "text": "Los socios declaran las ganancias en sus declaraciones de impuestos personales." }
+        ],
+        "disadvantages": [
+          { "text": "Cada socio puede ser responsable de las decisiones comerciales de los demás." },
+          { "text": "Los desacuerdos entre parejas pueden ser difíciles de resolver." }
+        ]
+      }
+    ]
+  }
+}

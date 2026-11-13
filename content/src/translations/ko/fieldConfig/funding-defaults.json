@@ -1,0 +1,35 @@
+{
+  "fundingDefaults": {
+    "pageTitle": "자금 지원 프로그램",
+    "pageIntro": "사업 시작이나 성장에 도움이 될 수 있는 보조금, 대출, 세액 공제 혜택을 알아보세요.",
+    "readMore": "프로그램 보기",
+    "backToList": "모든 지원 프로그램 보기로 돌아가기",
+    "detailsHeading": "프로그램 세부 정보",
+    "fundingTypeLabel": "자금 조달 유형",
+    "statusLabel": "상태",
+    "frequencyLabel": "얼마나 자주",
+    "agencyLabel": "대행사",
+    "contactLabel": "연락하다",
+    "dueDateLabel": "마감일",
+    "fundingTypes": {
+      "grant": "승인하다",
+      "loan": "대출",
+      "tax credit": "세액 공제"
+    },
+    "statuses": {
+      "open": "열려 있는",
+      "rolling application": "정기 지원",
+      "first come, first served": "선착순입니다"
+    },
+    "frequencies": {
+      "ongoing": "전진",
+      "annual": "연간",
+      "one-time": "일회"
+    },
+    "agencies": {
+      "economic-development": "경제개발청",
+      "energy-office": "청정에너지 사무국",
+      "labor-department": "노동 및 인력 개발부"
+    }
+  }
+}
