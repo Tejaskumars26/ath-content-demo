@@ -32,6 +32,13 @@
         "title": "Infórmese sobre los impuestos",
         "text": "Descubra qué impuestos puede estar sujeto a pago su empresa y cómo presentarlos.",
         "linkText": "Más información"
+      },
+      {
+        "id": "employees",
+        "href": "/learn/employees",
+        "title": "Contratar empleados",
+        "text": "Infórmese sobre los requisitos para la contratación de empleados, incluidos los impuestos sobre la nómina y los seguros.",
+        "linkText": "Más información"
       }
     ]
   }
