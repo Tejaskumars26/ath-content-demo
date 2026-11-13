@@ -9,6 +9,7 @@ export const LANGUAGES: { code: string; label: string }[] = [
   { code: "yue", label: "中文 (廣東話)" },
   { code: "ht", label: "Kreyòl ayisyen" },
   { code: "ar", label: "العربية" },
+  { code: "kn", label: "ಕನ್ನಡ" },
 ];
 
 const RTL = new Set(["ar"]);
