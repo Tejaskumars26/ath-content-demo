@@ -1,0 +1,35 @@
+{
+  "fundingDefaults": {
+    "pageTitle": "Programas de financiación",
+    "pageIntro": "Explore las subvenciones, los préstamos y los créditos fiscales que pueden ayudar a su empresa a comenzar o a crecer.",
+    "readMore": "Ver programa",
+    "backToList": "Volver a todos los programas de financiación",
+    "detailsHeading": "Detalles del programa",
+    "fundingTypeLabel": "Tipo de financiación",
+    "statusLabel": "Estado",
+    "frequencyLabel": "Con qué frecuencia",
+    "agencyLabel": "Agencia",
+    "contactLabel": "Contacto",
+    "dueDateLabel": "Fecha de vencimiento",
+    "fundingTypes": {
+      "grant": "Conceder",
+      "loan": "Préstamo",
+      "tax credit": "Crédito fiscal"
+    },
+    "statuses": {
+      "open": "Abierto",
+      "rolling application": "Aplicación continua",
+      "first come, first served": "El primero en llegar es el primero en ser atendido."
+    },
+    "frequencies": {
+      "ongoing": "En curso",
+      "annual": "Anual",
+      "one-time": "Una vez"
+    },
+    "agencies": {
+      "economic-development": "Autoridad de Desarrollo Económico",
+      "energy-office": "Oficina de Energía Limpia",
+      "labor-department": "Departamento de Trabajo y Desarrollo de la Fuerza Laboral"
+    }
+  }
+}
