@@ -4,7 +4,7 @@ displayName: clean-energy-equipment-loan
 urlSlug: clean-energy-equipment-loan
 id: clean-energy-equipment-loan
 sidebarCardBodyText: Préstamos a bajo interés para empresas que instalen equipos de ahorro energético.
-summaryDescriptionMd: Este programa ofrece préstamos a bajo interés a las empresas que reemplazan equipos antiguos con sistemas de eficiencia energética.
+summaryDescriptionMd: Este programa ofrece préstamos a bajo interés a las empresas que reemplazan equipos antiguos por sistemas **de eficiencia energética**.
 fundingType: loan
 programFrequency: ongoing
 status: rolling application
