@@ -32,6 +32,13 @@
         "title": "Learn about taxes",
         "text": "Find out which taxes your business may be responsible for and how to file them.",
         "linkText": "Learn more"
+      },
+      {
+        "id": "employees",
+        "href": "/learn/employees",
+        "title": "Hire employees",
+        "text": "Learn about the requirements for hiring employees, including payroll taxes and insurance.",
+        "linkText": "Learn more"
       }
     ]
   }
