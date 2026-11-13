@@ -39,6 +39,13 @@
         "title": "Hire employees",
         "text": "Learn about the requirements for hiring employees, including payroll taxes and insurance.",
         "linkText": "Learn more"
+      },
+      {
+        "id": "resources",
+        "href": "/resources",
+        "title": "Find resources",
+        "text": "Get help from local organizations that provide free or low-cost business support.",
+        "linkText": "See all resources"
       }
     ]
   }
