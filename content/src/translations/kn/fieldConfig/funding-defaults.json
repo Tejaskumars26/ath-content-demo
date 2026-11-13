@@ -1,0 +1,35 @@
+{
+  "fundingDefaults": {
+    "pageTitle": "ಹಣಕಾಸು ಕಾರ್ಯಕ್ರಮಗಳು",
+    "pageIntro": "ನಿಮ್ಮ ವ್ಯವಹಾರವನ್ನು ಪ್ರಾರಂಭಿಸಲು ಅಥವಾ ಬೆಳೆಯಲು ಸಹಾಯ ಮಾಡುವ ಅನುದಾನಗಳು, ಸಾಲಗಳು ಮತ್ತು ತೆರಿಗೆ ಕ್ರೆಡಿಟ್‌ಗಳನ್ನು ಅನ್ವೇಷಿಸಿ.",
+    "readMore": "ಕಾರ್ಯಕ್ರಮ ವೀಕ್ಷಿಸಿ",
+    "backToList": "ಎಲ್ಲಾ ಹಣಕಾಸು ಕಾರ್ಯಕ್ರಮಗಳಿಗೆ ಹಿಂತಿರುಗಿ",
+    "detailsHeading": "ಕಾರ್ಯಕ್ರಮದ ವಿವರಗಳು",
+    "fundingTypeLabel": "ಹಣಕಾಸಿನ ಪ್ರಕಾರ",
+    "statusLabel": "ಸ್ಥಿತಿ",
+    "frequencyLabel": "ಎಷ್ಟು ಬಾರಿ",
+    "agencyLabel": "ಏಜೆನ್ಸಿ",
+    "contactLabel": "ಸಂಪರ್ಕಿಸಿ",
+    "dueDateLabel": "ಅಂತಿಮ ದಿನಾಂಕ",
+    "fundingTypes": {
+      "grant": "ಅನುದಾನ",
+      "loan": "ಸಾಲ",
+      "tax credit": "ತೆರಿಗೆ ಕ್ರೆಡಿಟ್"
+    },
+    "statuses": {
+      "open": "ತೆರೆದ",
+      "rolling application": "ರೋಲಿಂಗ್ ಅಪ್ಲಿಕೇಶನ್",
+      "first come, first served": "ಮೊದಲು ಬಂದವರಿಗೆ ಆದ್ಯತೆ"
+    },
+    "frequencies": {
+      "ongoing": "ನಡೆಯುತ್ತಿದೆ",
+      "annual": "ವಾರ್ಷಿಕ",
+      "one-time": "ಒಂದು ಬಾರಿ"
+    },
+    "agencies": {
+      "economic-development": "ಆರ್ಥಿಕ ಅಭಿವೃದ್ಧಿ ಪ್ರಾಧಿಕಾರ",
+      "energy-office": "ಶುದ್ಧ ಇಂಧನ ಕಚೇರಿ",
+      "labor-department": "ಕಾರ್ಮಿಕ ಮತ್ತು ಕಾರ್ಯಪಡೆ ಅಭಿವೃದ್ಧಿ ಇಲಾಖೆ"
+    }
+  }
+}

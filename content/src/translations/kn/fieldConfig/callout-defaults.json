@@ -1,0 +1,8 @@
+{
+  "calloutDefaults": {
+    "informationalHeadingDefaultText": "ನೆನಪಿನಲ್ಲಿಡಿ:",
+    "warningHeadingDefaultText": "ಗಮನಿಸಿ:",
+    "conditionalHeadingDefaultText": "ಪೂರ್ಣಗೊಂಡ ನಂತರ, ನೀವು ಇವುಗಳನ್ನು ಹೊಂದಿರುತ್ತೀರಿ:",
+    "quickReferenceHeadingDefaultText": "ತ್ವರಿತ ಉಲ್ಲೇಖ"
+  }
+}
