@@ -39,6 +39,13 @@
         "title": "Contratar empleados",
         "text": "Infórmese sobre los requisitos para la contratación de empleados, incluidos los impuestos sobre la nómina y los seguros.",
         "linkText": "Más información"
+      },
+      {
+        "id": "resources",
+        "href": "/resources",
+        "title": "Encuentra recursos",
+        "text": "Busque ayuda en organizaciones locales que ofrecen apoyo empresarial gratuito o a bajo costo.",
+        "linkText": "Ver todos los recursos"
       }
     ]
   }
