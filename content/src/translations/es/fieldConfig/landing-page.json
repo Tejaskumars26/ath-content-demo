@@ -46,6 +46,13 @@
         "title": "Encuentra recursos",
         "text": "Busque ayuda en organizaciones locales que ofrecen apoyo empresarial gratuito o a bajo costo.",
         "linkText": "Ver todos los recursos"
+      },
+      {
+        "id": "business-plan",
+        "href": "/learn/business-plan",
+        "title": "Redactar un plan de negocios",
+        "text": "Un plan de negocios te ayuda a establecer objetivos, conseguir financiación y gestionar tu empresa.",
+        "linkText": "Más información"
       }
     ]
   }
