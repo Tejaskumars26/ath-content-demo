@@ -1,17 +1,17 @@
 ---
-name: Crédito fiscal para la contratación de aprendices
+name: Apprenticeship Hiring Tax Credit
 displayName: apprenticeship-hiring-tax-credit
 urlSlug: apprenticeship-hiring-tax-credit
 id: apprenticeship-hiring-tax-credit
-sidebarCardBodyText: Un crédito fiscal para los empleadores que contraten y capaciten a aprendices en programas registrados.
-summaryDescriptionMd: Los empleadores pueden recibir un crédito fiscal por cada aprendiz que contraten a través de un programa de aprendizaje registrado.
+sidebarCardBodyText: A tax credit for employers who hire and train apprentices in registered programs.
+summaryDescriptionMd: Employers can receive a tax credit for each apprentice they hire through a registered apprenticeship program.
 fundingType: tax credit
 programFrequency: annual
 status: first come, first served
 agency:
   - labor-department
-agencyContact: "Programas de desarrollo laboral: (555) 010-0300, apprenticeships@example.gov"
-callToActionText: Comprobar elegibilidad
+agencyContact: "Workforce programs: (555) 010-0300, apprenticeships@example.gov"
+callToActionText: Check eligibility
 callToActionLink: https://www.example.gov/apprenticeship-credit
 dueDate: "2026-12-31"
 county:

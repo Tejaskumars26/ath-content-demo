@@ -1,17 +1,17 @@
 ---
-name: Préstamo para equipos de energía limpia
+name: Clean Energy Equipment Loan
 displayName: clean-energy-equipment-loan
 urlSlug: clean-energy-equipment-loan
 id: clean-energy-equipment-loan
-sidebarCardBodyText: Préstamos a bajo interés para empresas que instalen equipos de ahorro energético.
-summaryDescriptionMd: Este programa ofrece préstamos a bajo interés a las empresas que reemplazan equipos antiguos por sistemas **de eficiencia energética**.
+sidebarCardBodyText: Low-interest loans for businesses that install energy-saving equipment.
+summaryDescriptionMd: This program offers low-interest loans to businesses that replace old equipment with **energy-efficient** systems.
 fundingType: loan
 programFrequency: ongoing
 status: rolling application
 agency:
   - energy-office
-agencyContact: "Mesa de energía limpia: (555) 010-0200, cleanenergy@example.gov"
-callToActionText: Inicie su solicitud
+agencyContact: "Clean energy desk: (555) 010-0200, cleanenergy@example.gov"
+callToActionText: Start your application
 callToActionLink: https://www.example.gov/apply/clean-energy
 dueDate: ""
 county:
@@ -30,7 +30,7 @@ Pueden presentar su solicitud empresas de cualquier tamaño que tengan previsto 
 2. Seleccione el equipo que cumpla los requisitos de la lista aprobada.
 3. Envíe su solicitud de préstamo junto con el informe de evaluación.
 
-:::largeCallout{ showHeader="true" headerText="Condiciones del préstamo" calloutType="quickReference" amountIconText="$25,000 to $500,000" filingTypeIconText="" frequencyIconText="" phoneIconText="" phoneIconLabel="" emailIconText="" }
+:::largeCallout{ showHeader="true" headerText="Loan terms" calloutType="quickReference" amountIconText="$25,000 to $500,000" filingTypeIconText="" frequencyIconText="" phoneIconText="" phoneIconLabel="" emailIconText="" }
 
 Préstamos desde 25.000 dólares hasta 500.000 dólares con plazos de hasta diez años y un tipo de interés fijo.
 

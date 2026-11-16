@@ -1,17 +1,17 @@
 ---
-name: Subvención para la mejora de la calle principal
+name: Main Street Improvement Grant
 displayName: main-street-improvement-grant
 urlSlug: main-street-improvement-grant
 id: main-street-improvement-grant
-sidebarCardBodyText: Subvenciones para reparar y mejorar las fachadas de los locales comerciales en las zonas céntricas de las ciudades.
-summaryDescriptionMd: La subvención para la mejora de la calle principal ayuda a las pequeñas empresas a reparar y mejorar sus fachadas. Consulte las [directrices del programa](https://www.example.gov/guidelines) antes de presentar su solicitud.
+sidebarCardBodyText: Grants to repair and improve storefronts in downtown business districts.
+summaryDescriptionMd: The Main Street Improvement Grant helps small businesses repair and improve their storefronts. See the [program guidelines](https://www.example.gov/guidelines) before you apply.
 fundingType: grant
 programFrequency: annual
 status: open
 agency:
   - economic-development
-agencyContact: "Equipo del programa: (555) 010-0100, mainstreet@example.gov"
-callToActionText: Solicita en línea
+agencyContact: "Program team: (555) 010-0100, mainstreet@example.gov"
+callToActionText: Apply online
 callToActionLink: https://www.example.gov/apply/main-street
 dueDate: ""
 county:
@@ -30,7 +30,7 @@ Su negocio debe estar ubicado en un distrito céntrico designado y tener menos d
 * Las mejoras son visibles desde la calle.
 * El trabajo no habrá comenzado antes de que se apruebe su solicitud.
 
-:::largeCallout{ showHeader="true" headerText="Beneficios" calloutType="conditional" amountIconText="Up to $20,000" filingTypeIconText="" frequencyIconText="" phoneIconText="" phoneIconLabel="" emailIconText="" }
+:::largeCallout{ showHeader="true" headerText="Benefits" calloutType="conditional" amountIconText="Up to $20,000" filingTypeIconText="" frequencyIconText="" phoneIconText="" phoneIconLabel="" emailIconText="" }
 
 Subvenciones de hasta 20.000 dólares para cubrir la instalación de nuevos letreros, iluminación, ventanas, puertas y pintura exterior.
 
