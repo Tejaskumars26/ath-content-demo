@@ -44,6 +44,12 @@ export default function Layout({ nav, title, showTranslationNotice, children }: 
       <a className="usa-skipnav" href="#main-content">{nav.skipToContent}</a>
 
       <div className="demo-banner" role="note">{nav.demoBanner}</div>
+      {process.env.NEXT_PUBLIC_SITE_MODE === "preview" && (
+        // Preview service only (built from the ath/translations branch): translations not merged yet
+        <div role="note" style={{ background: "#ffbe2e", color: "#1b1b1b", padding: "6px 16px", fontWeight: 600, textAlign: "center" }}>
+          PREVIEW – translations from the open ATH pull request, not live yet
+        </div>
+      )}
 
       <header className="site-header">
         <div className="grid-container site-header__inner">

@@ -1,0 +1,46 @@
+# Cloud Build: build the site from the pushed branch and deploy it to its Cloud Run service.
+# Two triggers use this file:
+#   branch ^main$              -> _SERVICE=ath-content-demo-live     _SITE_MODE=live
+#   branch ^ath/translations$  -> _SERVICE=ath-content-demo-preview  _SITE_MODE=preview
+# deploy.sh also submits it by hand (gcloud builds submit) - images are tagged with $BUILD_ID so both work.
+substitutions:
+  _REGION: us-central1
+  _REPOSITORY: ath-demo
+  _SERVICE: ath-content-demo-live
+  _SITE_MODE: live
+
+steps:
+  - id: build
+    name: gcr.io/cloud-builders/docker
+    args:
+      - build
+      - --build-arg=NEXT_PUBLIC_SITE_MODE=${_SITE_MODE}
+      - -t=${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPOSITORY}/${_SERVICE}:$BUILD_ID
+      - .
+
+  - id: push
+    name: gcr.io/cloud-builders/docker
+    args: [push, "${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPOSITORY}/${_SERVICE}:$BUILD_ID"]
+
+  - id: deploy
+    name: gcr.io/google.com/cloudsdktool/cloud-sdk:slim
+    entrypoint: gcloud
+    args:
+      - run
+      - deploy
+      - ${_SERVICE}
+      - --image=${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPOSITORY}/${_SERVICE}:$BUILD_ID
+      - --region=${_REGION}
+      - --platform=managed
+      - --allow-unauthenticated
+      - --port=8080
+      - --memory=512Mi
+      - --min-instances=0
+      - --max-instances=2
+      - --labels=app=ath-content-demo,site-mode=${_SITE_MODE},commit=$SHORT_SHA
+
+images:
+  - ${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPOSITORY}/${_SERVICE}:$BUILD_ID
+
+options:
+  logging: CLOUD_LOGGING_ONLY
