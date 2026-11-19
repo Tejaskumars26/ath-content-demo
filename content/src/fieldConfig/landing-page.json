@@ -53,6 +53,13 @@
         "title": "Write a business plan",
         "text": "Learn how to create a business plan that will help you start and grow your business.",
         "linkText": "Learn more"
+      },
+      {
+        "id": "marketing",
+        "href": "/learn/marketing",
+        "title": "Market your business",
+        "text": "Learn how to create a marketing plan and promote your business.",
+        "linkText": "Learn more"
       }
     ]
   }
