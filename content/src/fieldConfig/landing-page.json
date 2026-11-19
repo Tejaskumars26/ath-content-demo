@@ -46,6 +46,13 @@
         "title": "Find resources",
         "text": "Get help from local organizations that provide free or low-cost business support.",
         "linkText": "See all resources"
+      },
+      {
+        "id": "business-plan",
+        "href": "/learn/business-plan",
+        "title": "Write a business plan",
+        "text": "Learn how to create a business plan that will help you start and grow your business.",
+        "linkText": "Learn more"
       }
     ]
   }
