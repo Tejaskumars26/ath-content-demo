@@ -1,6 +1,6 @@
 {
   "landingPage": {
-    "heroTitle": "Crea, gestiona y haz crecer tu negocio.",
+    "heroTitle": "Inicia, opera y haz crecer tu negocio.",
     "heroSubtitle": "Descubre qué necesita tu empresa para empezar, explora los programas de financiación y conoce los requisitos que te corresponden.",
     "heroCallToAction": "Explorar programas de financiación",
     "cardsTitle": "Temas populares",
@@ -46,6 +46,13 @@
         "title": "Encuentra recursos",
         "text": "Busque ayuda en organizaciones locales que ofrecen apoyo empresarial gratuito o a bajo costo.",
         "linkText": "Ver todos los recursos"
+      },
+      {
+        "id": "business-plan",
+        "href": "/learn/business-plan",
+        "title": "Redactar un plan de negocios",
+        "text": "Aprende a desarrollar un plan de negocios efectivo que te permita poner en marcha tu empresa y alcanzar un crecimiento sostenible.",
+        "linkText": "Más información"
       }
     ]
   }
