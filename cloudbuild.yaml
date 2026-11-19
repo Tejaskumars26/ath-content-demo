@@ -2,6 +2,7 @@
 # Two triggers use this file:
 #   branch ^main$              -> _SERVICE=ath-content-demo-live     _SITE_MODE=live
 #   branch ^ath/translations$  -> _SERVICE=ath-content-demo-preview  _SITE_MODE=preview
+#   branch ^ath/preview$       -> _SERVICE=ath-content-demo-draft    _SITE_MODE=draft   (Preview my edits)
 # deploy.sh also submits it by hand (gcloud builds submit) - images are tagged with $BUILD_ID so both work.
 substitutions:
   _REGION: us-central1

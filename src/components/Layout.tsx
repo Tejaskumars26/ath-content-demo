@@ -50,6 +50,12 @@ export default function Layout({ nav, title, showTranslationNotice, children }: 
           PREVIEW – translations from the open ATH pull request, not live yet
         </div>
       )}
+      {process.env.NEXT_PUBLIC_SITE_MODE === "draft" && (
+        // Draft service only (built from the ath/preview branch): reviewers' edits, not published in ATH yet
+        <div role="note" style={{ background: "#00bde3", color: "#1b1b1b", padding: "6px 16px", fontWeight: 600, textAlign: "center" }}>
+          DRAFT – reviewers&apos; unpublished edits from ATH, not in the pull request yet
+        </div>
+      )}
 
       <header className="site-header">
         <div className="grid-container site-header__inner">

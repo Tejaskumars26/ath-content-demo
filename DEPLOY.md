@@ -1,14 +1,17 @@
-# Deploying the demo: live site + preview site (Cloud Run)
+# Deploying the demo: live, preview and draft sites (Cloud Run)
 
-Two Cloud Run services, each rebuilt automatically by Cloud Build when its branch changes:
+Three Cloud Run services, each rebuilt automatically by Cloud Build when its branch changes:
 
 | Service | Branch | Shows |
 |---|---|---|
 | `ath-content-demo-live` | `main` | What is merged – the live site |
 | `ath-content-demo-preview` | `ath/translations` | The site with the translations of ATH's open pull request (yellow **PREVIEW** banner) |
+| `ath-content-demo-draft` | `ath/preview` | Reviewers' **unpublished** edits – written by **Preview my edits** in ATH (blue **DRAFT** banner) |
 
 ATH rewrites `ath/translations` from `main` on every delivery, so the preview always = latest `main` + the
-translations. The preview URL never changes; it is the "Preview site address" of the repository in ATH.
+translations; `ath/preview` is rewritten from `main` on every *Preview my edits*. The addresses never change. In ATH:
+repository → Edit → **Site preview** On → *Draft preview address* = the draft service, *Pull request preview address* =
+the preview service.
 
 Files: `Dockerfile` (Next.js standalone server, port 8080), `cloudbuild.yaml` (build → push → deploy the
 service named in `_SERVICE`), `next.config.mjs` (`output: "standalone"`).
@@ -17,16 +20,18 @@ service named in `_SERVICE`), `next.config.mjs` (`output: "standalone"`).
 
 ```bash
 gcloud auth login            # once
-./deploy.sh                  # setup (safe to re-run) + deploy live + deploy preview + print the addresses
+./deploy.sh                  # setup (safe to re-run) + deploy live, preview and draft + print the addresses
 ./deploy.sh setup            # only the one-time setup below (steps 1, 2 and 4)
 ./deploy.sh live             # build THIS folder (incl. uncommitted changes) -> live service
 ./deploy.sh preview          # build the ath/translations branch -> preview service (this folder if the branch doesn't exist yet)
 ./deploy.sh preview --local  # build this folder with the PREVIEW banner -> preview service
-./deploy.sh urls             # the two addresses
+./deploy.sh draft            # build the ath/preview branch -> draft service (this folder if the branch doesn't exist yet)
+./deploy.sh draft --local    # build this folder with the DRAFT banner -> draft service
+./deploy.sh urls             # the three addresses
 DRY_RUN=1 ./deploy.sh        # print the commands without running anything
 ```
 
-Step 3 (connecting GitHub to Cloud Build) is done in the browser; until then the script still deploys both
+Step 3 (connecting GitHub to Cloud Build) is done in the browser; until then the script still deploys all
 services from this folder and tells you the triggers are missing. Builds run on Cloud Build, so Docker is not
 needed locally. `.gcloudignore` keeps `node_modules/` and `.next/` out of the upload.
 
@@ -51,7 +56,7 @@ gcloud iam service-accounts add-iam-policy-binding $RUN_SA --member=serviceAccou
    `Tejaskumars26/ath-content-demo`. (This is Cloud Build's own GitHub app, separate from the ATH app.)
 
 ```bash
-# 4. Two triggers, same build file
+# 4. Three triggers, same build file
 gcloud builds triggers create github --project=$PROJECT --name=ath-demo-live \
   --repo-owner=Tejaskumars26 --repo-name=ath-content-demo --branch-pattern='^main$' \
   --build-config=cloudbuild.yaml --substitutions=_SERVICE=ath-content-demo-live,_SITE_MODE=live
@@ -59,6 +64,10 @@ gcloud builds triggers create github --project=$PROJECT --name=ath-demo-live \
 gcloud builds triggers create github --project=$PROJECT --name=ath-demo-preview \
   --repo-owner=Tejaskumars26 --repo-name=ath-content-demo --branch-pattern='^ath/translations$' \
   --build-config=cloudbuild.yaml --substitutions=_SERVICE=ath-content-demo-preview,_SITE_MODE=preview
+
+gcloud builds triggers create github --project=$PROJECT --name=ath-demo-draft \
+  --repo-owner=Tejaskumars26 --repo-name=ath-content-demo --branch-pattern='^ath/preview$' \
+  --build-config=cloudbuild.yaml --substitutions=_SERVICE=ath-content-demo-draft,_SITE_MODE=draft
 ```
 
 5. **Commit and push** `Dockerfile`, `.dockerignore`, `cloudbuild.yaml`, `next.config.mjs`, the Layout change
@@ -67,12 +76,15 @@ gcloud builds triggers create github --project=$PROJECT --name=ath-demo-preview 
    in ATH) – `ath/translations` is then re-created from the new `main`, so it contains these files.
    To build it right away instead: `gcloud builds triggers run ath-demo-preview --branch=ath/translations --project=$PROJECT`
    (only after a delivery made from the new `main`).
+7. The draft site builds the first time a reviewer clicks **Preview my edits** in ATH (Site preview on). Until
+   then `./deploy.sh draft` deploys this folder with the DRAFT banner so the address exists.
 
 ## Addresses
 
 ```bash
 gcloud run services describe ath-content-demo-live    --region=$REGION --project=$PROJECT --format='value(status.url)'
 gcloud run services describe ath-content-demo-preview --region=$REGION --project=$PROJECT --format='value(status.url)'
+gcloud run services describe ath-content-demo-draft   --region=$REGION --project=$PROJECT --format='value(status.url)'
 ```
 
 Put the preview address in ATH: repository → Settings → **Preview site address**.

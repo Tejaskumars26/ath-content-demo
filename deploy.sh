@@ -1,14 +1,16 @@
 #!/usr/bin/env bash
-# Deploy the demo site to Cloud Run: live service (main) + preview service (ath/translations).
+# Deploy the demo site to Cloud Run: live (main), preview (ath/translations – the pull request) and
+# draft (ath/preview – reviewers' unpublished edits, "Preview my edits" in ATH).
 #
-#   ./deploy.sh            setup (if needed) + deploy live + deploy preview + print the addresses
+#   ./deploy.sh            setup (if needed) + deploy live, preview and draft + print the addresses
 #   ./deploy.sh setup      one-time setup only: APIs, image repository, permissions, triggers (safe to re-run)
 #   ./deploy.sh live       build THIS FOLDER and deploy it to the live service
 #   ./deploy.sh preview    build the ath/translations branch (trigger) – or this folder with --local
-#   ./deploy.sh urls       print the two service addresses
+#   ./deploy.sh draft      build the ath/preview branch (trigger) – or this folder with --local
+#   ./deploy.sh urls       print the three service addresses
 #
 # Options / environment:
-#   --local          preview: build this folder (with the PREVIEW banner) instead of the ath/translations branch
+#   --local          preview / draft: build this folder (PREVIEW / DRAFT banner) instead of the branch
 #   DRY_RUN=1        print the gcloud commands instead of running them
 #   PROJECT, REGION, GITHUB_OWNER, GITHUB_REPO   override the defaults below
 #
@@ -24,6 +26,8 @@ GITHUB_REPO="${GITHUB_REPO:-ath-content-demo}"
 LIVE_SERVICE="ath-content-demo-live"
 PREVIEW_SERVICE="ath-content-demo-preview"
 PREVIEW_BRANCH="ath/translations"
+DRAFT_SERVICE="ath-content-demo-draft"
+DRAFT_BRANCH="ath/preview"
 DRY_RUN="${DRY_RUN:-0}"
 
 cd "$(dirname "$0")"
@@ -73,9 +77,12 @@ setup() {
   run iam service-accounts add-iam-policy-binding "$run_sa" --member="serviceAccount:$cb_sa" \
     --role=roles/iam.serviceAccountUser --project="$PROJECT" --quiet --format=none
 
-  say "4/4 Build triggers (main -> live, $PREVIEW_BRANCH -> preview)"
-  create_trigger ath-demo-live    '^main$'                  "$LIVE_SERVICE"    live
-  create_trigger ath-demo-preview '^ath/translations$'      "$PREVIEW_SERVICE" preview
+  say "4/4 Build triggers (main -> live, $PREVIEW_BRANCH -> preview, $DRAFT_BRANCH -> draft)"
+  local failed=0
+  create_trigger ath-demo-live    '^main$'                  "$LIVE_SERVICE"    live    || failed=1
+  create_trigger ath-demo-preview '^ath/translations$'      "$PREVIEW_SERVICE" preview || failed=1
+  create_trigger ath-demo-draft   '^ath/preview$'           "$DRAFT_SERVICE"   draft   || failed=1
+  return $failed
 }
 
 create_trigger() {
@@ -112,57 +119,75 @@ deploy_live() {
   submit_local "$LIVE_SERVICE" live
 }
 
-deploy_preview() {
-  local local_build="${1:-}"
+# A branch ATH writes, built by its trigger – or this folder (with the banner) with --local or while
+# the branch does not exist yet.   deploy_branch <service> <branch> <mode> <trigger> <created-by> [--local]
+deploy_branch() {
+  local service="$1" branch="$2" mode="$3" trigger="$4" created_by="$5" local_build="${6:-}"
+  local banner
+  banner="$(printf '%s' "$mode" | tr '[:lower:]' '[:upper:]')"
   if [ "$local_build" = "--local" ]; then
-    say "Deploying this folder with the PREVIEW banner -> $PREVIEW_SERVICE"
-    submit_local "$PREVIEW_SERVICE" preview
+    say "Deploying this folder with the $banner banner -> $service"
+    submit_local "$service" "$mode"
     return
   fi
-  say "Building branch $PREVIEW_BRANCH -> $PREVIEW_SERVICE"
-  if [ "$DRY_RUN" != 1 ] && ! git ls-remote --exit-code --heads origin "$PREVIEW_BRANCH" >/dev/null 2>&1; then
-    warn "  Branch $PREVIEW_BRANCH does not exist on GitHub yet – ATH creates it on its first delivery
-  (publish a review job, or Create / Update pull request in ATH). Deploying this folder with the banner instead."
-    submit_local "$PREVIEW_SERVICE" preview
+  say "Building branch $branch -> $service"
+  if [ "$DRY_RUN" != 1 ] && ! git ls-remote --exit-code --heads origin "$branch" >/dev/null 2>&1; then
+    warn "  Branch $branch does not exist on GitHub yet – ATH creates it on $created_by.
+  Deploying this folder with the $banner banner instead."
+    submit_local "$service" "$mode"
     return
   fi
-  if exists builds triggers describe ath-demo-preview --project="$PROJECT" || [ "$DRY_RUN" = 1 ]; then
-    run builds triggers run ath-demo-preview --branch="$PREVIEW_BRANCH" --project="$PROJECT"
+  if exists builds triggers describe "$trigger" --project="$PROJECT" || [ "$DRY_RUN" = 1 ]; then
+    run builds triggers run "$trigger" --branch="$branch" --project="$PROJECT"
     echo "  Build started – follow it: https://console.cloud.google.com/cloud-build/builds?project=$PROJECT"
   else
-    warn "  Trigger ath-demo-preview does not exist (run ./deploy.sh setup). Deploying this folder with the banner instead."
-    submit_local "$PREVIEW_SERVICE" preview
+    warn "  Trigger $trigger does not exist (run ./deploy.sh setup). Deploying this folder with the $banner banner instead."
+    submit_local "$service" "$mode"
   fi
+}
+
+deploy_preview() {
+  deploy_branch "$PREVIEW_SERVICE" "$PREVIEW_BRANCH" preview ath-demo-preview \
+    "its first delivery (publish a review job, or Create / Update pull request)" "${1:-}"
+}
+
+deploy_draft() {
+  deploy_branch "$DRAFT_SERVICE" "$DRAFT_BRANCH" draft ath-demo-draft \
+    "the first \"Preview my edits\" (Site preview on in the repository settings)" "${1:-}"
 }
 
 urls() {
   say "Addresses"
   local s url
-  for s in "$LIVE_SERVICE" "$PREVIEW_SERVICE"; do
+  for s in "$LIVE_SERVICE" "$PREVIEW_SERVICE" "$DRAFT_SERVICE"; do
     if [ "$DRY_RUN" = 1 ]; then echo "  $s: (dry run)"; continue; fi
     url="$(gcloud run services describe "$s" --region="$REGION" --project="$PROJECT" --format='value(status.url)' 2>/dev/null || true)"
     printf '  %-26s %s\n' "$s" "${url:-(not deployed yet)}"
   done
   echo
-  echo "  Put the preview address in ATH: repository -> Edit -> Preview site address."
+  echo "  In ATH: repository -> Edit -> Site preview On:"
+  echo "    Draft preview address        = the $DRAFT_SERVICE address"
+  echo "    Pull request preview address = the $PREVIEW_SERVICE address"
 }
 
 main() {
   local command="${1:-all}"
   shift || true
-  case "$command" in -h|--help|help) sed -n '2,16p' "$0" | sed 's/^# \{0,1\}//'; return ;; esac
+  case "$command" in -h|--help|help) sed -n '2,19p' "$0" | sed 's/^# \{0,1\}//'; return ;; esac
   check_gcloud
   case "$command" in
     setup)   setup ;;
     live)    deploy_live ;;
     preview) deploy_preview "${1:-}" ;;
+    draft)   deploy_draft "${1:-}" ;;
     urls)    urls ;;
     all)
       setup || warn "Setup not complete (see above) – continuing with manual deploys."
       deploy_live
       deploy_preview "${1:-}"
+      deploy_draft "${1:-}"
       urls ;;
-    *) die "unknown command '$command' – use: setup | live | preview [--local] | urls | (none = all)" ;;
+    *) die "unknown command '$command' – use: setup | live | preview [--local] | draft [--local] | urls | (none = all)" ;;
   esac
 }
 
