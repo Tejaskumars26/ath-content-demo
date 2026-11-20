@@ -53,6 +53,13 @@
         "title": "Redactar un plan de negocios",
         "text": "Aprende a desarrollar un plan de negocios efectivo que te permita poner en marcha tu empresa y alcanzar un crecimiento sostenible.",
         "linkText": "Más información"
+      },
+      {
+        "id": "marketing",
+        "href": "/learn/marketing",
+        "title": "Promociona tu negocio negocio",
+        "text": "Aprende a crear un plan de marketing y a promocionar tu negocio.",
+        "linkText": "Más información"
       }
     ]
   }
