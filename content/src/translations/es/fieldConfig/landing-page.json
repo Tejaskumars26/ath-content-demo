@@ -60,6 +60,13 @@
         "title": "Promociona tu negocio negocio",
         "text": "Aprende a crear un plan de marketing y a promocionar tu negocio.",
         "linkText": "Más información"
+      },
+      {
+        "id": "technology",
+        "href": "/learn/technology",
+        "title": "Utilizar la tecnología",
+        "text": "Aprende a utilizar la tecnología para mejorar las operaciones de tu negocio y llegar a más clientes.",
+        "linkText": "Más información"
       }
     ]
   }
