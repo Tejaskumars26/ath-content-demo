@@ -1,0 +1,35 @@
+{
+  "fundingDefaults": {
+    "pageTitle": "ભંડોળ કાર્યક્રમો",
+    "pageIntro": "તમારા વ્યવસાયને શરૂ કરવામાં અથવા વિકસાવવામાં મદદ કરી શકે તેવા અનુદાન, લોન અને ટેક્સ ક્રેડિટ્સનું અન્વેષણ કરો.",
+    "readMore": "કાર્યક્રમ જુઓ",
+    "backToList": "બધા ભંડોળ કાર્યક્રમો પર પાછા",
+    "detailsHeading": "કાર્યક્રમની વિગતો",
+    "fundingTypeLabel": "ભંડોળનો પ્રકાર",
+    "statusLabel": "સ્થિતિ",
+    "frequencyLabel": "કેટલી વારે",
+    "agencyLabel": "એજન્સી",
+    "contactLabel": "સંપર્ક કરો",
+    "dueDateLabel": "નિયત તારીખ",
+    "fundingTypes": {
+      "grant": "ગ્રાન્ટ",
+      "loan": "લોન",
+      "tax credit": "ટેક્સ ક્રેડિટ"
+    },
+    "statuses": {
+      "open": "ખુલ્લું",
+      "rolling application": "રોલિંગ એપ્લિકેશન",
+      "first come, first served": "પહેલા આવો, પહેલા સેવા"
+    },
+    "frequencies": {
+      "ongoing": "ચાલુ છે",
+      "annual": "વાર્ષિક",
+      "one-time": "એક વાર"
+    },
+    "agencies": {
+      "economic-development": "આર્થિક વિકાસ સત્તામંડળ",
+      "energy-office": "સ્વચ્છ ઊર્જા કાર્યાલય",
+      "labor-department": "શ્રમ અને કાર્યબળ વિકાસ વિભાગ"
+    }
+  }
+}
