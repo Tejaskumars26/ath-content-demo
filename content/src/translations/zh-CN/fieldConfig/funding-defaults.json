@@ -1,0 +1,35 @@
+{
+  "fundingDefaults": {
+    "pageTitle": "资助计划",
+    "pageIntro": "探索可以帮助您的企业创业或发展的补助金、贷款和税收抵免。",
+    "readMore": "查看程序",
+    "backToList": "返回所有资助项目",
+    "detailsHeading": "节目详情",
+    "fundingTypeLabel": "资金类型",
+    "statusLabel": "地位",
+    "frequencyLabel": "多常",
+    "agencyLabel": "机构",
+    "contactLabel": "接触",
+    "dueDateLabel": "到期日",
+    "fundingTypes": {
+      "grant": "授予",
+      "loan": "贷款",
+      "tax credit": "税收抵免"
+    },
+    "statuses": {
+      "open": "打开",
+      "rolling application": "滚动申请",
+      "first come, first served": "先到先得"
+    },
+    "frequencies": {
+      "ongoing": "正在进行中",
+      "annual": "年度的",
+      "one-time": "一度"
+    },
+    "agencies": {
+      "economic-development": "经济发展局",
+      "energy-office": "清洁能源办公室",
+      "labor-department": "劳工和劳动力发展部"
+    }
+  }
+}

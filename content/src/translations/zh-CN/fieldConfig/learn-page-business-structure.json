@@ -1,0 +1,60 @@
+{
+  "learnPageBusinessStructure": {
+    "title": "选择一种企业结构",
+    "overview": "在注册公司之前，您需要选择一种组织结构。你的选择会影响你如何缴税、你承担多少个人风险以及你需要提交哪些表格。",
+    "simpleWordsHeading": "简单来说",
+    "advantagesHeading": "优势",
+    "disadvantagesHeading": "缺点",
+    "structures": [
+      {
+        "id": "llc",
+        "displayName": "有限责任公司 (LLC)",
+        "simpleWords": [
+          { "text": "业主通常无需对企业的债务承担个人责任。" },
+          { "text": "它结合了公司和合伙企业的特点。" },
+          { "text": "利润需在所有者的个人所得税申报表中申报。" }
+        ],
+        "advantages": [
+          { "text": "保护您的个人资产免受大多数商业债务的影响。" },
+          { "text": "灵活选择企业纳税方式" }
+        ],
+        "disadvantages": [
+          { "text": "设立成本高于个体经营。" },
+          { "text": "有些投资者更喜欢直接投资公司。" }
+        ]
+      },
+      {
+        "id": "sole-proprietorship",
+        "displayName": "独资企业",
+        "simpleWords": [
+          { "text": "独自经营企业的最简单方法" },
+          { "text": "你和这家企业在法律上是同一实体。" }
+        ],
+        "advantages": [
+          { "text": "入门简单且成本低廉" },
+          { "text": "你对每一个决定都拥有完全的控制权。" }
+        ],
+        "disadvantages": [
+          { "text": "您个人对所有商业债务负有责任。" },
+          { "text": "从投资者那里筹集资金可能会更难。" }
+        ]
+      },
+      {
+        "id": "general-partnership",
+        "displayName": "普通合伙",
+        "simpleWords": [
+          { "text": "两个或两个以上的人共同拥有一家企业。" },
+          { "text": "合伙人共同管理企业并分担债务。" }
+        ],
+        "advantages": [
+          { "text": "启动和运行都很简单" },
+          { "text": "合伙人在其个人所得税申报表中申报利润。" }
+        ],
+        "disadvantages": [
+          { "text": "每个合伙人都可能对其他合伙人的商业决策负责。" },
+          { "text": "合作伙伴之间的分歧可能难以解决。" }
+        ]
+      }
+    ]
+  }
+}
