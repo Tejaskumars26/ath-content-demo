@@ -67,13 +67,6 @@
         "title": "Utilizar la tecnología",
         "text": "Aprende a utilizar la tecnología para mejorar las operaciones de tu negocio y llegar a más clientes.",
         "linkText": "Más información"
-      },
-      {
-        "id": "legal",
-        "href": "/learn/legal",
-        "title": "Comprender los aspectos legales",
-        "text": "Aprende a comprender los aspectos legales de tu negocio, incluidos los contratos y la propiedad intelectual.",
-        "linkText": "Más información"
       }
     ]
   }

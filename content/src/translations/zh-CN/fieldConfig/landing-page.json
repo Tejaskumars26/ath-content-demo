@@ -1,0 +1,73 @@
+{
+  "landingPage": {
+    "heroTitle": "创办、运营和发展您的企业",
+    "heroSubtitle": "了解您的企业需要哪些启动资金，探索各种资助项目，并了解适用于您的要求。",
+    "heroCallToAction": "探索资助项目",
+    "cardsTitle": "热门话题",
+    "cards": [
+      {
+        "id": "business-structure",
+        "href": "/learn/business-structure",
+        "title": "选择一种企业结构",
+        "text": "比较最常见的企业结构，看看每种结构如何影响您的税收和个人责任。",
+        "linkText": "比较结构"
+      },
+      {
+        "id": "funding",
+        "href": "/funding",
+        "title": "寻找资助项目",
+        "text": "企业在不同发展阶段均可获得补助金、贷款和税收抵免。",
+        "linkText": "查看所有节目"
+      },
+      {
+        "id": "requirements",
+        "href": "/learn/business-structure",
+        "title": "了解您的需求",
+        "text": "了解哪些注册、许可证和备案文件可能适用于您的企业类型。",
+        "linkText": "了解更多"
+      },
+      {
+        "id": "taxes",
+        "href": "/learn/taxes",
+        "title": "了解税收",
+        "text": "了解您的企业可能需要缴纳哪些税款以及如何申报。",
+        "linkText": "了解更多"
+      },
+      {
+        "id": "employees",
+        "href": "/learn/employees",
+        "title": "招聘员工",
+        "text": "了解雇佣员工的要求，包括工资税和保险。",
+        "linkText": "了解更多"
+      },
+      {
+        "id": "resources",
+        "href": "/resources",
+        "title": "查找资源",
+        "text": "向提供免费或低成本商业支持的当地组织寻求帮助。",
+        "linkText": "查看所有资源"
+      },
+      {
+        "id": "business-plan",
+        "href": "/learn/business-plan",
+        "title": "撰写商业计划书",
+        "text": "学习如何制定商业计划，这将有助于您创业和发展业务。",
+        "linkText": "了解更多"
+      },
+      {
+        "id": "marketing",
+        "href": "/learn/marketing",
+        "title": "推广您的业务",
+        "text": "学习如何制定营销计划并推广您的业务。",
+        "linkText": "了解更多"
+      },
+      {
+        "id": "technology",
+        "href": "/learn/technology",
+        "title": "运用科技",
+        "text": "学习如何利用科技改善业务运营，触达更多客户。",
+        "linkText": "了解更多"
+      }
+    ]
+  }
+}

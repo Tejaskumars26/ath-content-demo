@@ -1,0 +1,73 @@
+{
+  "landingPage": {
+    "heroTitle": "Kòmanse, opere, epi devlope biznis ou biznis ou",
+    "heroSubtitle": "Chèche konnen sa biznis ou bezwen pou l kòmanse, eksplore pwogram finansman yo, epi aprann sou egzijans ki aplikab pou ou yo.",
+    "heroCallToAction": "Eksplore pwogram finansman yo",
+    "cardsTitle": "Sijè popilè yo",
+    "cards": [
+      {
+        "id": "business-structure",
+        "href": "/learn/business-structure",
+        "title": "Chwazi yon estrikti biznis",
+        "text": "Konpare estrikti biznis ki pi komen yo epi gade kijan chak afekte taks ou ak responsablite pèsonèl ou.",
+        "linkText": "Konpare estrikti yo"
+      },
+      {
+        "id": "funding",
+        "href": "/funding",
+        "title": "Jwenn pwogram finansman",
+        "text": "Sibvansyon, prè, ak kredi taks disponib pou biznis nan diferan etap.",
+        "linkText": "Gade tout pwogram yo"
+      },
+      {
+        "id": "requirements",
+        "href": "/learn/business-structure",
+        "title": "Konprann bezwen ou yo",
+        "text": "Aprann ki anrejistreman, pèmi, ak dokiman ki ka aplike pou kalite biznis ou an.",
+        "linkText": "Aprann plis"
+      },
+      {
+        "id": "taxes",
+        "href": "/learn/taxes",
+        "title": "Aprann sou taks yo",
+        "text": "Chèche konnen ki taks biznis ou ka responsab pou peye ak kijan pou ou ranpli yo.",
+        "linkText": "Aprann plis"
+      },
+      {
+        "id": "employees",
+        "href": "/learn/employees",
+        "title": "Anboche anplwaye yo",
+        "text": "Aprann plis sou kondisyon pou anboche anplwaye yo, tankou taks sou pewòl ak asirans.",
+        "linkText": "Aprann plis"
+      },
+      {
+        "id": "resources",
+        "href": "/resources",
+        "title": "Jwenn resous",
+        "text": "Jwenn èd nan men òganizasyon lokal yo ki bay sipò biznis gratis oswa a pri abòdab.",
+        "linkText": "Gade tout resous yo"
+      },
+      {
+        "id": "business-plan",
+        "href": "/learn/business-plan",
+        "title": "Ekri yon plan biznis",
+        "text": "Aprann kijan pou kreye yon plan biznis ki pral ede w kòmanse epi devlope biznis ou.",
+        "linkText": "Aprann plis"
+      },
+      {
+        "id": "marketing",
+        "href": "/learn/marketing",
+        "title": "Mache biznis ou",
+        "text": "Aprann kijan pou kreye yon plan maketing epi fè pwomosyon pou biznis ou.",
+        "linkText": "Aprann plis"
+      },
+      {
+        "id": "technology",
+        "href": "/learn/technology",
+        "title": "Sèvi ak teknoloji",
+        "text": "Aprann kijan pou itilize teknoloji pou amelyore operasyon biznis ou epi rive jwenn plis kliyan.",
+        "linkText": "Aprann plis"
+      }
+    ]
+  }
+}
