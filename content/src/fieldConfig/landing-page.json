@@ -60,6 +60,13 @@
         "title": "Market your business",
         "text": "Learn how to create a marketing plan and promote your business.",
         "linkText": "Learn more"
+      },
+      {
+        "id": "technology",
+        "href": "/learn/technology",
+        "title": "Use technology",
+        "text": "Learn how to use technology to improve your business operations and reach more customers.",
+        "linkText": "Learn more"
       }
     ]
   }
