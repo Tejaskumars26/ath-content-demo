@@ -25,55 +25,6 @@
         "title": "Understand your requirements",
         "text": "Learn which registrations, permits, and filings may apply to your type of business.",
         "linkText": "Learn more"
-      },
-      {
-        "id": "taxes",
-        "href": "/learn/taxes",
-        "title": "Learn about taxes",
-        "text": "Find out which taxes your business may be responsible for and how to file them.",
-        "linkText": "Learn more"
-      },
-      {
-        "id": "employees",
-        "href": "/learn/employees",
-        "title": "Hire employees",
-        "text": "Learn about the requirements for hiring employees, including payroll taxes and insurance.",
-        "linkText": "Learn more"
-      },
-      {
-        "id": "resources",
-        "href": "/resources",
-        "title": "Find resources",
-        "text": "Get help from local organizations that provide free or low-cost business support.",
-        "linkText": "See all resources"
-      },
-      {
-        "id": "business-plan",
-        "href": "/learn/business-plan",
-        "title": "Write a business plan",
-        "text": "Learn how to create a business plan that will help you start and grow your business.",
-        "linkText": "Learn more"
-      },
-      {
-        "id": "marketing",
-        "href": "/learn/marketing",
-        "title": "Market your business",
-        "text": "Learn how to create a marketing plan and promote your business.",
-        "linkText": "Learn more"
-      },
-      {
-        "id": "technology",
-        "href": "/learn/technology",
-        "title": "Use technology",
-        "text": "Learn how to use technology to improve your business operations and reach more customers.",
-        "linkText": "Learn more"
-      },
-      {
-        "id": "sustainability",
-        "href": "/learn/sustainability",
-        "title": "Make your business sustainable",
-        "text": "Learn how to reduce your environmental impact and create a sustainable business.",
-        "linkText": "Learn more"
       }
     ]
   }
