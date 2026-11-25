@@ -32,6 +32,13 @@
         "title": "了解税收",
         "text": "了解适用于您企业的税种以及如何申报。",
         "linkText": "了解更多"
+      },
+      {
+        "id": "resources",
+        "href": "/resources",
+        "title": "获取资源",
+        "text": "查找工具、模板和指南，帮助您创业和发展业务。",
+        "linkText": "查看所有资源"
       }
     ]
   }

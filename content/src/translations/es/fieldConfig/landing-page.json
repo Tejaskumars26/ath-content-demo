@@ -32,6 +32,13 @@
         "title": "Infórmese sobre los impuestos impuestos",
         "text": "Comprenda los impuestos que se aplican a su negocio y cómo presentarlos.",
         "linkText": "Más información"
+      },
+      {
+        "id": "resources",
+        "href": "/resources",
+        "title": "Recursos de acceso",
+        "text": "Encuentra herramientas, plantillas y guías que te ayudarán a iniciar y hacer crecer tu negocio.",
+        "linkText": "Ver todos los recursos"
       }
     ]
   }

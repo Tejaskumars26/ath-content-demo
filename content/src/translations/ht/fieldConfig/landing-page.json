@@ -32,6 +32,13 @@
         "title": "Aprann sou taks yo",
         "text": "Konprann taks ki aplike pou biznis ou a ak kijan pou ranpli yo.",
         "linkText": "Aprann plis"
+      },
+      {
+        "id": "resources",
+        "href": "/resources",
+        "title": "Aksè resous yo",
+        "text": "Jwenn zouti, modèl, ak gid pou ede w kòmanse epi devlope biznis ou.",
+        "linkText": "Gade tout resous yo"
       }
     ]
   }
