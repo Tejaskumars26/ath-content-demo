@@ -32,6 +32,13 @@
         "title": "Learn about taxes",
         "text": "Understand the taxes that apply to your business and how to file them.",
         "linkText": "Learn more"
+      },
+      {
+        "id": "resources",
+        "href": "/resources",
+        "title": "Access resources",
+        "text": "Find tools, templates, and guides to help you start and grow your business.",
+        "linkText": "See all resources"
       }
     ]
   }
