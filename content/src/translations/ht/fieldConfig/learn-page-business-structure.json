@@ -1,0 +1,60 @@
+{
+  "learnPageBusinessStructure": {
+    "title": "Chwazi yon estrikti biznis",
+    "overview": "Anvan ou anrejistre biznis ou a, ou bezwen chwazi yon estrikti. Chwa ou genyen an afekte fason ou peye taks, konbyen risk pèsonèl ou pran, ak ki fòm ou bezwen ranpli.",
+    "simpleWordsHeading": "Nan mo senp",
+    "advantagesHeading": "Avantaj",
+    "disadvantagesHeading": "Dezavantaj",
+    "structures": [
+      {
+        "id": "llc",
+        "displayName": "Sosyete Responsablite Limite (LLC)",
+        "simpleWords": [
+          { "text": "Pwopriyetè yo anjeneral pa responsab pèsonèlman pou dèt biznis la." },
+          { "text": "Li konbine karakteristik yon sosyete ak yon patenarya" },
+          { "text": "Pwofi yo rapòte sou deklarasyon taks pèsonèl pwopriyetè yo" }
+        ],
+        "advantages": [
+          { "text": "Pwoteje byen pèsonèl ou yo kont pifò dèt biznis yo" },
+          { "text": "Chwa fleksib sou fason biznis la ap takse" }
+        ],
+        "disadvantages": [
+          { "text": "Li koute plis pou mete kanpe pase yon antrepriz endividyèl" },
+          { "text": "Gen kèk envestisè ki prefere finanse kòporasyon yo olye de sa." }
+        ]
+      },
+      {
+        "id": "sole-proprietorship",
+        "displayName": "Pwopriyetè sèl",
+        "simpleWords": [
+          { "text": "Fason ki pi senp pou dirije yon biznis poukont ou" },
+          { "text": "Ou menm ak biznis la legalman se menm moun." }
+        ],
+        "advantages": [
+          { "text": "Fasil e pa chè pou kòmanse" },
+          { "text": "Ou kenbe tout kontwòl sou chak desizyon" }
+        ],
+        "disadvantages": [
+          { "text": "Ou pèsonèlman responsab pou tout dèt biznis yo" },
+          { "text": "Li ka pi difisil pou jwenn lajan nan men envestisè yo" }
+        ]
+      },
+      {
+        "id": "general-partnership",
+        "displayName": "Patenarya Jeneral",
+        "simpleWords": [
+          { "text": "De oswa plis moun pataje pwopriyetè yon sèl biznis" },
+          { "text": "Patnè yo jere biznis la ansanm epi pataje dèt li yo" }
+        ],
+        "advantages": [
+          { "text": "Senp pou kòmanse ak pou fonksyone" },
+          { "text": "Patnè yo rapòte pwofi yo sou deklarasyon taks pèsonèl yo" }
+        ],
+        "disadvantages": [
+          { "text": "Chak patnè ka responsab pou desizyon biznis lòt yo" },
+          { "text": "Dezakò ant patnè yo ka difisil pou rezoud" }
+        ]
+      }
+    ]
+  }
+}
