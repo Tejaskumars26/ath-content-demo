@@ -1,0 +1,8 @@
+{
+  "calloutDefaults": {
+    "informationalHeadingDefaultText": "ધ્યાનમાં રાખો:",
+    "warningHeadingDefaultText": "સલાહ લો:",
+    "conditionalHeadingDefaultText": "એકવાર પૂર્ણ થઈ ગયા પછી, તમારી પાસે હશે:",
+    "quickReferenceHeadingDefaultText": "ઝડપી સંદર્ભ"
+  }
+}

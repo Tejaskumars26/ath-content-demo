@@ -1,0 +1,22 @@
+{
+  "navigation": {
+    "siteName": "Navegador de Negócios",
+    "stateName": "Estado de Nova Jersey",
+    "demoBanner": "Protótipo de demonstração — não é um site oficial do Estado de Nova Jersey. O conteúdo é um texto de exemplo para uma demonstração de tradução.",
+    "skipToContent": "Ir para o conteúdo principal",
+    "languageLabel": "Linguagem",
+    "menu": {
+      "home": "Lar",
+      "learn": "Estruturas de negócios",
+      "funding": "Programas de financiamento"
+    },
+    "footer": {
+      "aboutTitle": "Sobre esta demonstração",
+      "aboutText": "Este site mostra como o conteúdo da página, armazenado em arquivos JSON e Markdown, é traduzido, revisado por pessoas e publicado de volta no código.",
+      "helpTitle": "Precisar de ajuda?",
+      "helpText": "Em um portal real, esta seção listaria as opções de contato para proprietários de empresas.",
+      "copyright": "Site de demonstração apenas para fins de avaliação."
+    },
+    "translationNotice": "Esta página é exibida em inglês porque uma tradução ainda não está disponível."
+  }
+}

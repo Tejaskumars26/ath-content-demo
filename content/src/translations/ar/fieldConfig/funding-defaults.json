@@ -1,0 +1,35 @@
+{
+  "fundingDefaults": {
+    "pageTitle": "برامج التمويل",
+    "pageIntro": "استكشف المنح والقروض والإعفاءات الضريبية التي يمكن أن تساعد مشروعك التجاري على البدء أو النمو.",
+    "readMore": "عرض البرنامج",
+    "backToList": "العودة إلى جميع برامج التمويل",
+    "detailsHeading": "تفاصيل البرنامج",
+    "fundingTypeLabel": "نوع التمويل",
+    "statusLabel": "حالة",
+    "frequencyLabel": "عدد المرات",
+    "agencyLabel": "وكالة",
+    "contactLabel": "اتصال",
+    "dueDateLabel": "تاريخ الاستحقاق",
+    "fundingTypes": {
+      "grant": "منحة",
+      "loan": "يُقرض",
+      "tax credit": "الضرائب"
+    },
+    "statuses": {
+      "open": "يفتح",
+      "rolling application": "تطبيق متدرج",
+      "first come, first served": "الأولوية لمن يأتي أولاً"
+    },
+    "frequencies": {
+      "ongoing": "مستمر",
+      "annual": "سنوي",
+      "one-time": "مرة واحدة"
+    },
+    "agencies": {
+      "economic-development": "هيئة التنمية الاقتصادية",
+      "energy-office": "مكتب الطاقة النظيفة",
+      "labor-department": "وزارة العمل وتنمية القوى العاملة"
+    }
+  }
+}

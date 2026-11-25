@@ -1,0 +1,31 @@
+{
+  "landingPage": {
+    "heroTitle": "Inicia, opera y haz crecer tu negocio.",
+    "heroSubtitle": "Descubre qué necesita tu empresa para empezar, explora los programas de financiación y conoce los requisitos que te corresponden.",
+    "heroCallToAction": "Explorar programas de financiación",
+    "cardsTitle": "Temas populares",
+    "cards": [
+      {
+        "id": "business-structure",
+        "href": "/learn/business-structure",
+        "title": "Elija una estructura empresarial",
+        "text": "Compara las estructuras empresariales más comunes y comprueba cómo afecta cada una a tus impuestos y responsabilidad personal.",
+        "linkText": "Comparar estructuras"
+      },
+      {
+        "id": "funding",
+        "href": "/funding",
+        "title": "Encuentra programas de financiación",
+        "text": "Existen subvenciones, préstamos y créditos fiscales disponibles para empresas en diferentes etapas de desarrollo.",
+        "linkText": "Ver todos los programas"
+      },
+      {
+        "id": "requirements",
+        "href": "/learn/business-structure",
+        "title": "Comprenda sus necesidades",
+        "text": "Infórmese sobre qué registros, permisos y trámites pueden aplicarse a su tipo de negocio.",
+        "linkText": "Más información"
+      }
+    ]
+  }
+}
