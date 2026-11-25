@@ -1,8 +1,0 @@
-{
-  "calloutDefaults": {
-    "informationalHeadingDefaultText": "記住：",
-    "warningHeadingDefaultText": "請注意：",
-    "conditionalHeadingDefaultText": "完成後，您將擁有：",
-    "quickReferenceHeadingDefaultText": "快速參考"
-  }
-}

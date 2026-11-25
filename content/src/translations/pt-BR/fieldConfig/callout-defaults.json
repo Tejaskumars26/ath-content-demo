@@ -1,8 +1,0 @@
-{
-  "calloutDefaults": {
-    "informationalHeadingDefaultText": "Ter em mente:",
-    "warningHeadingDefaultText": "Atenção:",
-    "conditionalHeadingDefaultText": "Após a conclusão, você terá:",
-    "quickReferenceHeadingDefaultText": "Referência rápida"
-  }
-}
