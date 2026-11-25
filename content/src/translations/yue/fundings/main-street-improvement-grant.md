@@ -24,7 +24,7 @@ publishStageArchive: ""
 ---
 ## 資格
 
-Your business must be located in a designated downtown district and have fewer than **50 employees**. You must own or lease the building you want to improve.
+你嘅商家必須位於指定嘅市中心區，而且員工少於 ** 50 人 ** 。你一定要擁有或者租用你想改善嘅建築物。
 
 * 呢間生意已經經營咗至少一年
 * 喺街度可以睇到啲改善
@@ -38,7 +38,7 @@ Your business must be located in a designated downtown district and have fewer t
 
 ## 點樣申請
 
-Prepare photos of the current storefront and a quote from a licensed contractor. Then submit your application through the [online portal](https://www.example.gov/apply/main-street).
+準備現有店面嘅相片同埋持牌承建商嘅報價。然後透過 [ 網上入口 ](https://www.example.gov/apply/main-street) 提交你嘅申請。
 
 :::largeCallout{ showHeader="true" calloutType="warning" }
 
