@@ -1,0 +1,8 @@
+{
+  "calloutDefaults": {
+    "informationalHeadingDefaultText": "ضع في اعتبارك ما يلي:",
+    "warningHeadingDefaultText": "يرجى الانتباه:",
+    "conditionalHeadingDefaultText": "بمجرد الانتهاء، ستحصل على:",
+    "quickReferenceHeadingDefaultText": "مرجع سريع"
+  }
+}

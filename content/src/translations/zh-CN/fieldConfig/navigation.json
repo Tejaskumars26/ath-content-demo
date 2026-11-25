@@ -1,0 +1,22 @@
+{
+  "navigation": {
+    "siteName": "商业导航",
+    "stateName": "新泽西州",
+    "demoBanner": "演示原型——并非新泽西州官方网站。内容为翻译演示的示例文本。",
+    "skipToContent": "跳至内容",
+    "languageLabel": "语言",
+    "menu": {
+      "home": "家",
+      "learn": "商业结构",
+      "funding": "资助计划"
+    },
+    "footer": {
+      "aboutTitle": "关于本次演示",
+      "aboutText": "该网站展示了如何将保存在 JSON 和 Markdown 文件中的页面内容进行转换、由人员审核并发布回代码中。",
+      "helpTitle": "需要帮助吗？",
+      "helpText": "在真正的门户网站上，此部分会列出企业主的联系方式。",
+      "copyright": "仅供评估之用演示网站。"
+    },
+    "translationNotice": "此页面显示英文版本，因为目前还没有英文翻译版本。"
+  }
+}
