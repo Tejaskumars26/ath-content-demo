@@ -1,0 +1,31 @@
+{
+  "landingPage": {
+    "heroTitle": "创办、运营和发展您的企业",
+    "heroSubtitle": "了解您的企业需要哪些启动资金，探索各种资助项目，并了解适用于您的要求。",
+    "heroCallToAction": "探索资助项目",
+    "cardsTitle": "热门话题",
+    "cards": [
+      {
+        "id": "business-structure",
+        "href": "/learn/business-structure",
+        "title": "选择一种企业结构",
+        "text": "比较最常见的企业结构，看看每种结构如何影响您的税收和个人责任。",
+        "linkText": "比较结构"
+      },
+      {
+        "id": "funding",
+        "href": "/funding",
+        "title": "寻找资助项目",
+        "text": "企业在不同发展阶段均可获得补助金、贷款和税收抵免。",
+        "linkText": "查看所有节目"
+      },
+      {
+        "id": "requirements",
+        "href": "/learn/business-structure",
+        "title": "了解您的需求",
+        "text": "了解哪些注册、许可证和备案文件可能适用于您的企业类型。",
+        "linkText": "了解更多"
+      }
+    ]
+  }
+}

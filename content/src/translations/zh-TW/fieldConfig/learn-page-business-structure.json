@@ -1,0 +1,60 @@
+{
+  "learnPageBusinessStructure": {
+    "title": "選擇一種企業結構",
+    "overview": "在註冊公司之前，您需要選擇一種組織結構。你的選擇會影響你如何繳稅、你承擔多少個人風險以及你需要提交哪些表格。",
+    "simpleWordsHeading": "簡單來說",
+    "advantagesHeading": "優勢",
+    "disadvantagesHeading": "缺點",
+    "structures": [
+      {
+        "id": "llc",
+        "displayName": "有限責任公司 (LLC)",
+        "simpleWords": [
+          { "text": "業主通常無需對企業的債務承擔個人責任。" },
+          { "text": "它結合了公司和合夥企業的特點。" },
+          { "text": "利潤需在所有者的個人所得稅申報表中申報。" }
+        ],
+        "advantages": [
+          { "text": "保護您的個人資產免受大多數商業債務的影響。" },
+          { "text": "靈活選擇企業繳稅方式" }
+        ],
+        "disadvantages": [
+          { "text": "設立成本高於個體經營。" },
+          { "text": "有些投資者喜歡直接投資公司。" }
+        ]
+      },
+      {
+        "id": "sole-proprietorship",
+        "displayName": "獨資企業",
+        "simpleWords": [
+          { "text": "獨自經營企業最簡單的方法" },
+          { "text": "你和這家企業在法律上是同一實體。" }
+        ],
+        "advantages": [
+          { "text": "入門簡單且成本低廉" },
+          { "text": "你對每一個決定都擁有完全的控制權。" }
+        ],
+        "disadvantages": [
+          { "text": "您個人對所有商業債務負有責任。" },
+          { "text": "從投資者那裡籌集資金可能會更難。" }
+        ]
+      },
+      {
+        "id": "general-partnership",
+        "displayName": "普通合夥",
+        "simpleWords": [
+          { "text": "兩個或兩個以上的人共同擁有一家企業。" },
+          { "text": "合夥人共同管理企業並分擔債務。" }
+        ],
+        "advantages": [
+          { "text": "啟動和運行都很簡單" },
+          { "text": "合夥人在其個人所得稅申報表中申報利潤。" }
+        ],
+        "disadvantages": [
+          { "text": "每個合夥人可能對其他合夥人的商業決策負責。" },
+          { "text": "合作夥伴之間的分歧可能難以解決。" }
+        ]
+      }
+    ]
+  }
+}

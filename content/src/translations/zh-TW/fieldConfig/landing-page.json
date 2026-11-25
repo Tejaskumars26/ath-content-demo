@@ -1,0 +1,31 @@
+{
+  "landingPage": {
+    "heroTitle": "創辦、經營和發展您的企業",
+    "heroSubtitle": "了解您的企業需要哪些啟動資金，探索各種資助項目，並了解適用於您的要求。",
+    "heroCallToAction": "探索資助項目",
+    "cardsTitle": "熱門話題",
+    "cards": [
+      {
+        "id": "business-structure",
+        "href": "/learn/business-structure",
+        "title": "選擇一種企業結構",
+        "text": "比較最常見的企業結構，看看每種結構如何影響您的稅務和個人責任。",
+        "linkText": "比較結構"
+      },
+      {
+        "id": "funding",
+        "href": "/funding",
+        "title": "尋找資助項目",
+        "text": "企業在不同發展階段均可獲得補助、貸款和稅收抵免。",
+        "linkText": "看所有節目"
+      },
+      {
+        "id": "requirements",
+        "href": "/learn/business-structure",
+        "title": "了解您的需求",
+        "text": "了解哪些註冊、許可證和備案文件可能適用於您的企業類型。",
+        "linkText": "了解更多"
+      }
+    ]
+  }
+}
