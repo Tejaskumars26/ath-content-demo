@@ -1,0 +1,60 @@
+{
+  "learnPageBusinessStructure": {
+    "title": "揀一個商業結構",
+    "overview": "喺你註冊你嘅生意之前，你需要揀一個結構。你嘅選擇會影響你點樣交稅、你承擔幾多個人風險，同埋你需要提交邊啲表格。",
+    "simpleWordsHeading": "簡單啲講",
+    "advantagesHeading": "優點",
+    "disadvantagesHeading": "缺點",
+    "structures": [
+      {
+        "id": "llc",
+        "displayName": "有限責任公司（ LLC ）",
+        "simpleWords": [
+          { "text": "業主通常唔會對商家嘅債務負責" },
+          { "text": "佢結合咗公司同夥伴關係嘅特點" },
+          { "text": "利潤係喺業主嘅個人納稅報表上面報告" }
+        ],
+        "advantages": [
+          { "text": "保護你嘅個人資產免受大部分商業債務嘅影響" },
+          { "text": "靈活選擇商家嘅稅收方式" }
+        ],
+        "disadvantages": [
+          { "text": "成立成本高過獨資企業" },
+          { "text": "有啲投資者寧願資助公司" }
+        ]
+      },
+      {
+        "id": "sole-proprietorship",
+        "displayName": "獨資",
+        "simpleWords": [
+          { "text": "自己經營生意嘅最簡單方法" },
+          { "text": "你同間公司喺法律上係一樣嘅" }
+        ],
+        "advantages": [
+          { "text": "開始簡單又平" },
+          { "text": "你可以完全控制每個決定" }
+        ],
+        "disadvantages": [
+          { "text": "你要為所有商業債務負責" },
+          { "text": "從投資者身上籌集錢可能會更加難" }
+        ]
+      },
+      {
+        "id": "general-partnership",
+        "displayName": "一般合夥關係",
+        "simpleWords": [
+          { "text": "兩個或以上嘅人分享一個商家嘅擁有權" },
+          { "text": "合作夥伴一齊管理生意同埋分享佢嘅債務" }
+        ],
+        "advantages": [
+          { "text": "開始同執行都好簡單" },
+          { "text": "合作夥伴會喺佢哋嘅個人納稅報表上面報告利潤" }
+        ],
+        "disadvantages": [
+          { "text": "每個合作夥伴都可以為其他人嘅商業決定負責" },
+          { "text": "伴侶之間嘅分歧可能好難解決" }
+        ]
+      }
+    ]
+  }
+}
