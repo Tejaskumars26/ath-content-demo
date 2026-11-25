@@ -1,0 +1,8 @@
+{
+  "calloutDefaults": {
+    "informationalHeadingDefaultText": "Kenbe nan tèt ou:",
+    "warningHeadingDefaultText": "Pran nòt:",
+    "conditionalHeadingDefaultText": "Yon fwa ou fini, ou pral genyen:",
+    "quickReferenceHeadingDefaultText": "Referans rapid"
+  }
+}

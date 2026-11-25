@@ -1,0 +1,22 @@
+{
+  "navigation": {
+    "siteName": "商業導航",
+    "stateName": "紐澤西州",
+    "demoBanner": "演示原型—並非新澤西州官方網站。內容為翻譯演示的範例文字。",
+    "skipToContent": "跳至內容",
+    "languageLabel": "語言",
+    "menu": {
+      "home": "家",
+      "learn": "商業結構",
+      "funding": "資助計劃"
+    },
+    "footer": {
+      "aboutTitle": "關於本次演示",
+      "aboutText": "該網站展示如何將保存在 JSON 和 Markdown 文件中的頁面內容進行轉換、由人員審核並發布回程式碼中。",
+      "helpTitle": "需要幫助嗎？",
+      "helpText": "在真正的入口網站上，此部分會列出企業主的聯絡資訊。",
+      "copyright": "僅供評估之用示範網站。"
+    },
+    "translationNotice": "此頁面顯示英文版本，因為目前還沒有英文翻譯版本。"
+  }
+}
