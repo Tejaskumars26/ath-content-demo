@@ -25,6 +25,13 @@
         "title": "Konprann bezwen ou yo",
         "text": "Aprann ki anrejistreman, pèmi, ak dokiman ki ka aplike pou kalite biznis ou an.",
         "linkText": "Aprann plis"
+      },
+      {
+        "id": "taxes",
+        "href": "/learn/taxes",
+        "title": "Aprann sou taks yo",
+        "text": "Konprann taks ki aplike pou biznis ou a ak kijan pou ranpli yo.",
+        "linkText": "Aprann plis"
       }
     ]
   }
