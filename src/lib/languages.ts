@@ -6,7 +6,7 @@ export const LANGUAGES: { code: string; label: string }[] = [
   { code: "ko", label: "한국어 / Korean" },
   { code: "gu", label: "ગુજરાતી / Gujarati" },
   { code: "zh-CN", label: "中文 (普通话) / Chinese (Simplified)" },
-  { code: "yue", label: "中文 (廣東話) / Chinese (Traditional)" },
+  { code: "yue", label: "中文 (廣東話) / Cantonese" },
   { code: "ht", label: "Kreyòl ayisyen / Haitian Creole" },
   { code: "ar", label: "العربية / Arabic" },
 ];
