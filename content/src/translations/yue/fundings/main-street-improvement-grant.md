@@ -24,7 +24,7 @@ publishStageArchive: ""
 ---
 ## 資格
 
-你嘅商家必須位於指定嘅市中心區，而且員工少於 ** 50 人 ** 。你一定要擁有或者租用你想改善嘅建築物。
+你嘅商家必須位於指定嘅市中心區，而且員工少於 **50 人** 。你一定要擁有或者租用你想改善嘅建築物。
 
 * 呢間生意已經經營咗至少一年
 * 喺街度可以睇到啲改善
@@ -38,7 +38,7 @@ publishStageArchive: ""
 
 ## 點樣申請
 
-準備現有店面嘅相片同埋持牌承建商嘅報價。然後透過 [ 網上入口 ](https://www.example.gov/apply/main-street) 提交你嘅申請。
+準備現有店面嘅相片同埋持牌承建商嘅報價。然後透過 [網上入口](https://www.example.gov/apply/main-street) 提交你嘅申請。
 
 :::largeCallout{ showHeader="true" calloutType="warning" }
 
