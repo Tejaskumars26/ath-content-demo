@@ -25,6 +25,13 @@
         "title": "Understand your requirements",
         "text": "Learn which registrations, permits, and filings may apply to your type of business.",
         "linkText": "Learn more"
+      },
+      {
+        "id": "taxes",
+        "href": "/learn/taxes",
+        "title": "Learn about taxes",
+        "text": "Understand the taxes that apply to your business and how to file them.",
+        "linkText": "Learn more"
       }
     ]
   }
