@@ -1,0 +1,35 @@
+{
+  "fundingDefaults": {
+    "pageTitle": "資助計劃",
+    "pageIntro": "探索可以幫助你嘅生意開始或者發展嘅資助、貸款同稅務抵免額。",
+    "readMore": "睇節目",
+    "backToList": "返去所有資助計劃",
+    "detailsHeading": "計劃詳情",
+    "fundingTypeLabel": "資助類型",
+    "statusLabel": "地位",
+    "frequencyLabel": "有幾經常",
+    "agencyLabel": "代理",
+    "contactLabel": "聯絡",
+    "dueDateLabel": "到期日",
+    "fundingTypes": {
+      "grant": "授予",
+      "loan": "貸款",
+      "tax credit": "稅務抵免額"
+    },
+    "statuses": {
+      "open": "打開",
+      "rolling application": "滾動應用程式",
+      "first come, first served": "先到先得"
+    },
+    "frequencies": {
+      "ongoing": "持續緊",
+      "annual": "年度",
+      "one-time": "一次"
+    },
+    "agencies": {
+      "economic-development": "經濟發展局",
+      "energy-office": "清潔能源辦公室",
+      "labor-department": "勞工同勞動力發展署"
+    }
+  }
+}
