@@ -25,6 +25,13 @@
         "title": "Entenda suas necessidades",
         "text": "Saiba quais registros, licenças e documentos podem ser aplicáveis ​​ao seu tipo de negócio.",
         "linkText": "Saber mais"
+      },
+      {
+        "id": "taxes",
+        "href": "/learn/taxes",
+        "title": "Saiba mais sobre impostos",
+        "text": "Entenda os impostos aplicáveis ​​ao seu negócio e como declará-los.",
+        "linkText": "Saber mais"
       }
     ]
   }
